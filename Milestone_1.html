@@ -1,0 +1,5628 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>e45742cf6c9f41a8a169dd7c1eab433e</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="in-the-heat-of-protest" class="cell markdown"
+id="E7gxk_dGA17y">
+<h1>In the Heat of Protest</h1>
+<p>Mason Meeks</p>
+<p>Since the mid-2010s, it feels as though our world and society has
+changed a lot, especially with how we engage politically. Using data
+from the Crowd Counting Consortium (<a
+href="https://sites.google.com/view/crowdcountingconsortium/view-download-the-data?authuser=0">found
+here</a>), I will be investigating the ebb and flow of protests from
+2017 to present day. Specifically, I will be using protest data from
+July of each year since 2017. This has to do with the fact that I am
+curious how the relationship between COVID and the BLM movement affected
+protest frequency, and that it is only a few months away from elections
+during election cycles.</p>
+<p>The data I will be using and this notebook can be found <a
+href="https://">here</a></p>
+</section>
+<div class="cell code" data-execution_count="1"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Y9fS6wH3t5bz" data-outputId="9743858d-ad1d-4e7d-cd8f-2c8e356727f0">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># clone the course repository, change to right directory, and import libraries.</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>git clone https:<span class="op">//</span>github.com<span class="op">/</span>mmeekstu<span class="op">/</span>data_science.git</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content<span class="op">/</span>data_science<span class="op">/</span><span class="st">&#39;Project Data&#39;</span><span class="op">/</span><span class="st">&#39;July Data&#39;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_columns&#39;</span>, <span class="va">None</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>/content
+Cloning into &#39;data_science&#39;...
+remote: Enumerating objects: 136, done.ote: Counting objects: 100% (2/2), done.ote: Compressing objects: 100% (2/2), done.ote: Total 136 (delta 1), reused 0 (delta 0), pack-reused 134</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="2" id="C9hKEdCa8zMa">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reading into csv files</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df_2017 <span class="op">=</span> pd.read_csv(<span class="st">&#39;Crowd Estimates July 2017 - Tally.csv&#39;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>df_2018 <span class="op">=</span> pd.read_csv(<span class="st">&#39;Crowd Estimates July 2018 - Tally.csv&#39;</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>df_2019 <span class="op">=</span> pd.read_csv(<span class="st">&#39;Crowd Estimates July 2019 - Tally.csv&#39;</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>df_2020 <span class="op">=</span> pd.read_csv(<span class="st">&#39;Crowd Estimates July 2020 - Tally.csv&#39;</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>df_2021 <span class="op">=</span> pd.read_csv(<span class="st">&#39;Crowd Estimates July 2021 - Tally.csv&#39;</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>df_2022 <span class="op">=</span> pd.read_csv(<span class="st">&#39;Crowd Estimates July 2022 - Tally.csv&#39;</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>df_2023 <span class="op">=</span> pd.read_csv(<span class="st">&#39;Crowd Estimates July 2023 - Tally.csv&#39;</span>)</span></code></pre></div>
+</div>
+<section id="the-data" class="cell markdown" id="U8LGUVpWJBet">
+<h1>The Data</h1>
+<p>This data comes from the Crowd Counting Consortium which analyzes
+every protest, demonstration, rally, vigil, etc. throughout the U.S. The
+creators of this data have coded in many aspects of protests including
+its location, size, claim, groups, interactions among protestrs,
+interactions among police, and many others. I chose this data because I
+should give me an abundance of information that will allow me to ask and
+potentially answer many types of questions. The initial question I hope
+to investigate with this milestone is how the frequency of protests have
+changed since 2017. With major elections, COVID, and massive public
+responses to policies and governmental actions, I expect to find a lot
+of interesting statistics that will shape the next stages of this
+project.</p>
+</section>
+<div class="cell markdown" id="1T2C2yoLH9KE">
+<p>After reading the csv files in, I am going to add a year column to
+each with their corresponding year. This will make grouping them quick
+and simple later on.</p>
+</div>
+<div class="cell code" data-execution_count="3" id="ZsD5nnIA_g2M">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding a year column to each</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df_2017[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2017</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>df_2018[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2018</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>df_2019[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2019</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>df_2020[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2020</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>df_2021[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2021</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>df_2022[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2022</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>df_2023[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2023</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4" id="iE52Ud-wDxRV">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a list for future use</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df_list <span class="op">=</span> <span class="bu">list</span>([df_2017, df_2018, df_2019, df_2020, df_2021, df_2022, df_2023])</span></code></pre></div>
+</div>
+<div class="cell markdown" id="EcfZQYGhKP-5">
+<p>Now for a quick display of the first row of each file. This will show
+how messy or neat the data is, and allow me to understand where I need
+to start in organizing and tidying.</p>
+</div>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="8lUfJIHxINf2" data-outputId="a5b8589a-4811-4822-ba62-b64d2fa4f0b5">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> df <span class="kw">in</span> df_list:</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  display(df.head(<span class="dv">1</span>))</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-6ad33a45-c6e6-4965-a283-0faacd473c2f" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CityTown</th>
+      <th>Location</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateText</th>
+      <th>EstimateLow</th>
+      <th>BestGuess</th>
+      <th>EstimateHigh</th>
+      <th>AdjustedLow</th>
+      <th>AdjustedHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>TownsCities</th>
+      <th>Events</th>
+      <th>Source1</th>
+      <th>Source2</th>
+      <th>Source3</th>
+      <th>Misc.</th>
+      <th>Unnamed: 25</th>
+      <th>Unnamed: 26</th>
+      <th>Unnamed: 27</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Augusta</td>
+      <td>Outside State House</td>
+      <td>ME</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>about 150; more than 150</td>
+      <td>150.0</td>
+      <td>NaN</td>
+      <td>150.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Maine State Employees Association</td>
+      <td>Protesting ME government shutdown</td>
+      <td>0</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>http://mainepublic.org/post/state-workers-prot...</td>
+      <td>http://wgme.com/news/local/breaking-state-gove...</td>
+      <td>http://www.pressherald.com/2017/07/01/out-of-w...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2017</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-6ad33a45-c6e6-4965-a283-0faacd473c2f')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-6ad33a45-c6e6-4965-a283-0faacd473c2f button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-6ad33a45-c6e6-4965-a283-0faacd473c2f');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-0ca5204b-08e4-498f-b232-9badb3a89580" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CityTown</th>
+      <th>Location</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateText</th>
+      <th>EstimateLow</th>
+      <th>BestGuess</th>
+      <th>EstimateHigh</th>
+      <th>AdjustedLow</th>
+      <th>AdjustedHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>TownsCities</th>
+      <th>Events</th>
+      <th>Source1</th>
+      <th>Source2</th>
+      <th>Source3</th>
+      <th>Misc.</th>
+      <th>Unnamed: 25</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Atlanta</td>
+      <td>Atlanta City Detention Center</td>
+      <td>GA</td>
+      <td>US</td>
+      <td>2018-07-01</td>
+      <td>dozens</td>
+      <td>24.0</td>
+      <td>NaN</td>
+      <td>24.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Families Belong Together</td>
+      <td>against jailing and separating immigrant child...</td>
+      <td>1.0</td>
+      <td>protest</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>https://act.moveon.org/event/families-belong-t...</td>
+      <td>https://www.ajc.com/news/breaking-news/thousan...</td>
+      <td>https://www.ajc.com/news/breaking-news/arreste...</td>
+      <td>Continuation of FBT protest one day earlier. I...</td>
+      <td>NaN</td>
+      <td>2018</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-0ca5204b-08e4-498f-b232-9badb3a89580')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-0ca5204b-08e4-498f-b232-9badb3a89580 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-0ca5204b-08e4-498f-b232-9badb3a89580');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-50a1a625-9169-43bc-9166-8a443dc7174d" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Location</th>
+      <th>County</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateText</th>
+      <th>EstimateLow</th>
+      <th>BestGuess</th>
+      <th>EstimateHigh</th>
+      <th>AdjustedLow</th>
+      <th>AdjustedHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>TownsCities</th>
+      <th>Events</th>
+      <th>Source1</th>
+      <th>Source2</th>
+      <th>Source3</th>
+      <th>Misc.</th>
+      <th>Unnamed: 26</th>
+      <th>Unnamed: 27</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Baltimore</td>
+      <td>City Hall</td>
+      <td>NaN</td>
+      <td>MD</td>
+      <td>US</td>
+      <td>2019-07-01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>customers, advocacy groups</td>
+      <td>water rates going up by 10% as the Board of Pu...</td>
+      <td>0</td>
+      <td>protest</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>https://www.wbaltv.com/article/protest-water-r...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2019</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-50a1a625-9169-43bc-9166-8a443dc7174d')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-50a1a625-9169-43bc-9166-8a443dc7174d button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-50a1a625-9169-43bc-9166-8a443dc7174d');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-37f7351c-d1db-481d-90fd-9e150900eb52" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CityTown</th>
+      <th>Location</th>
+      <th>County</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateText</th>
+      <th>EstimateLow</th>
+      <th>BestGuess</th>
+      <th>EstimateHigh</th>
+      <th>AdjustedLow</th>
+      <th>AdjustedHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>TownsCities</th>
+      <th>Events</th>
+      <th>MacroEvent</th>
+      <th>Misc.</th>
+      <th>Source1</th>
+      <th>Source2</th>
+      <th>Source3</th>
+      <th>Source4</th>
+      <th>Source5</th>
+      <th>Source6</th>
+      <th>Unnamed: 30</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Ashland</td>
+      <td>Memorial Park; streets of Ashland; Highway 13 ...</td>
+      <td>NaN</td>
+      <td>WI</td>
+      <td>US</td>
+      <td>2020-07-01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>water protectors</td>
+      <td>against recloation of Enbridge Line 5 Pipeline...</td>
+      <td>1</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://kbjr6.com/2020/07/01/protesters-march-...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2020</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-37f7351c-d1db-481d-90fd-9e150900eb52')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-37f7351c-d1db-481d-90fd-9e150900eb52 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-37f7351c-d1db-481d-90fd-9e150900eb52');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-c045e3bb-d727-4ed8-9e62-46b6367f7340" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>locality</th>
+      <th>state</th>
+      <th>location</th>
+      <th>title</th>
+      <th>size_text</th>
+      <th>size_low</th>
+      <th>size_high</th>
+      <th>organizations</th>
+      <th>participants</th>
+      <th>claims</th>
+      <th>valence</th>
+      <th>event_type</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>police_injuries</th>
+      <th>participant_injuries</th>
+      <th>arrests</th>
+      <th>property_damage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>macroevent</th>
+      <th>notes</th>
+      <th>coder</th>
+      <th>source1</th>
+      <th>source2</th>
+      <th>source3</th>
+      <th>source4</th>
+      <th>source5</th>
+      <th>source6</th>
+      <th>source7</th>
+      <th>source8</th>
+      <th>source9</th>
+      <th>source10</th>
+      <th>source11</th>
+      <th>source12</th>
+      <th>source13</th>
+      <th>source14</th>
+      <th>source15</th>
+      <th>source16</th>
+      <th>source17</th>
+      <th>source18</th>
+      <th>source19</th>
+      <th>source20</th>
+      <th>source21</th>
+      <th>source22</th>
+      <th>source23</th>
+      <th>source24</th>
+      <th>source25</th>
+      <th>source26</th>
+      <th>source27</th>
+      <th>source28</th>
+      <th>source29</th>
+      <th>source30</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-07-01</td>
+      <td>Addison</td>
+      <td>IL</td>
+      <td>Portillo's Food Service</td>
+      <td>NaN</td>
+      <td>17</td>
+      <td>17.0</td>
+      <td>17.0</td>
+      <td>Arise Chicago</td>
+      <td>workers</td>
+      <td>for better working conditions and higher pay f...</td>
+      <td>0.0</td>
+      <td>strike; picket</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://chicago.suntimes.com/2021/7/2/22561028...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2021</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-c045e3bb-d727-4ed8-9e62-46b6367f7340')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-c045e3bb-d727-4ed8-9e62-46b6367f7340 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-c045e3bb-d727-4ed8-9e62-46b6367f7340');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-4774d07c-f27e-42c2-a3e2-146904c3d625" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>locality</th>
+      <th>state</th>
+      <th>location</th>
+      <th>title</th>
+      <th>size_text</th>
+      <th>size_low</th>
+      <th>size_high</th>
+      <th>organizations</th>
+      <th>participants</th>
+      <th>claims</th>
+      <th>valence</th>
+      <th>event_type</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>police_injuries</th>
+      <th>participant_injuries</th>
+      <th>arrests</th>
+      <th>property_damage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>macroevent</th>
+      <th>notes</th>
+      <th>coder</th>
+      <th>source1</th>
+      <th>source2</th>
+      <th>source3</th>
+      <th>source4</th>
+      <th>source5</th>
+      <th>source6</th>
+      <th>source7</th>
+      <th>source8</th>
+      <th>source9</th>
+      <th>source10</th>
+      <th>source11</th>
+      <th>source12</th>
+      <th>source13</th>
+      <th>source14</th>
+      <th>source15</th>
+      <th>source16</th>
+      <th>source17</th>
+      <th>source18</th>
+      <th>source19</th>
+      <th>source20</th>
+      <th>source21</th>
+      <th>source22</th>
+      <th>source23</th>
+      <th>source24</th>
+      <th>source25</th>
+      <th>source26</th>
+      <th>source27</th>
+      <th>source28</th>
+      <th>source29</th>
+      <th>source30</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2022-07-01</td>
+      <td>Akron</td>
+      <td>OH</td>
+      <td>Harold K. Stubbs Justice Center</td>
+      <td>NaN</td>
+      <td>about 20</td>
+      <td>20.0</td>
+      <td>20.0</td>
+      <td>The Freedom BLOC</td>
+      <td>NaN</td>
+      <td>for justice for Jayland Walker, against police...</td>
+      <td>1.0</td>
+      <td>protest</td>
+      <td>NaN</td>
+      <td>conversation with counter-protester</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>20220701-akron-jaylandwalker</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://twitter.com/sahrasulaiman/status/15431...</td>
+      <td>https://fox8.com/news/elected-officials-callin...</td>
+      <td>https://www.wkyc.com/article/news/local/akron/...</td>
+      <td>https://www.beaconjournal.com/story/news/2022/...</td>
+      <td>https://www.instagram.com/p/Cfcmqv6JPtD/</td>
+      <td>https://www.instagram.com/p/CfepN98pt0G/</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-4774d07c-f27e-42c2-a3e2-146904c3d625')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-4774d07c-f27e-42c2-a3e2-146904c3d625 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-4774d07c-f27e-42c2-a3e2-146904c3d625');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-e41d1371-56c3-4135-83d6-d4dbb5cc67ad" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>locality</th>
+      <th>state</th>
+      <th>location</th>
+      <th>title</th>
+      <th>size_text</th>
+      <th>size_low</th>
+      <th>size_high</th>
+      <th>organizations</th>
+      <th>participants</th>
+      <th>claims</th>
+      <th>valence</th>
+      <th>event_type</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>police_injuries</th>
+      <th>participant_injuries</th>
+      <th>arrests</th>
+      <th>property_damage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>macroevent</th>
+      <th>notes</th>
+      <th>coder</th>
+      <th>source1</th>
+      <th>source2</th>
+      <th>source3</th>
+      <th>source4</th>
+      <th>source5</th>
+      <th>source6</th>
+      <th>source7</th>
+      <th>source8</th>
+      <th>source9</th>
+      <th>source10</th>
+      <th>source11</th>
+      <th>source12</th>
+      <th>source13</th>
+      <th>source14</th>
+      <th>source15</th>
+      <th>source16</th>
+      <th>source17</th>
+      <th>source18</th>
+      <th>source19</th>
+      <th>source20</th>
+      <th>source21</th>
+      <th>source22</th>
+      <th>source23</th>
+      <th>source24</th>
+      <th>source25</th>
+      <th>source26</th>
+      <th>source27</th>
+      <th>source28</th>
+      <th>source29</th>
+      <th>source30</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2023-07-01</td>
+      <td>Aguadilla</td>
+      <td>PR</td>
+      <td>NaN</td>
+      <td>Campamiento Pelicano</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Citizens' Victory Movement</td>
+      <td>NaN</td>
+      <td>against illegal construction at historic Muell...</td>
+      <td>0</td>
+      <td>demonstration</td>
+      <td>NaN</td>
+      <td>protest encampment</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://twitter.com/Vaquero2XL/status/16102838...</td>
+      <td>https://twitter.com/Vaquero2XL/status/16201912...</td>
+      <td>https://twitter.com/Vaquero2XL/status/16204427...</td>
+      <td>https://twitter.com/latinorebels/status/162382...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-e41d1371-56c3-4135-83d6-d4dbb5cc67ad')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-e41d1371-56c3-4135-83d6-d4dbb5cc67ad button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-e41d1371-56c3-4135-83d6-d4dbb5cc67ad');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="SGcaAlfAIaS4">
+<p>There are a lot of usesless columns that need to be dropped. Also,
+this data is quite messy and is not the most consistently titled
+throughout the years. I am just going to run some for loops to itterate
+through the columns to drop what I don't want.</p>
+</div>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="B06Z93vR5VU5" data-outputId="0c7cfb81-db72-4937-de5a-f8bedbe81bfa">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dropping a lot of data that will not be needed for the project</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (cName, cData) <span class="kw">in</span> df_2017.iteritems():</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">&quot;source&quot;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Source&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;macroevent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;MacroEvent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Misc.&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Unnamed&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;notes&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;coder&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;TownsCities&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Events&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;BestGuess&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedLow&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedHigh&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;EstimateText&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;County&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;size_text&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;title&#39;</span> <span class="kw">in</span> cName):</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>      df_2017 <span class="op">=</span> df_2017.drop(columns <span class="op">=</span> cName)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (cName, cData) <span class="kw">in</span> df_2018.iteritems():</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">&quot;source&quot;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Source&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;macroevent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;MacroEvent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Misc.&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Unnamed&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;notes&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;coder&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;TownsCities&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Events&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;BestGuess&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedLow&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedHigh&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;EstimateText&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;County&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;size_text&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;title&#39;</span> <span class="kw">in</span> cName):</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>      df_2018 <span class="op">=</span> df_2018.drop(columns <span class="op">=</span> cName)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (cName, cData) <span class="kw">in</span> df_2019.iteritems():</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="st">&quot;source&quot;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Source&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;macroevent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;MacroEvent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Misc.&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Unnamed&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;notes&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;coder&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;TownsCities&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Events&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;BestGuess&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedLow&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedHigh&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;EstimateText&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;County&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;size_text&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;title&#39;</span> <span class="kw">in</span> cName):</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    df_2019 <span class="op">=</span> df_2019.drop(columns <span class="op">=</span> cName)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (cName, cData) <span class="kw">in</span> df_2020.iteritems():</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">&quot;source&quot;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Source&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;macroevent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;MacroEvent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Misc.&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Unnamed&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;notes&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;coder&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;TownsCities&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Events&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;BestGuess&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedLow&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedHigh&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;EstimateText&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;County&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;size_text&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;title&#39;</span> <span class="kw">in</span> cName):</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>      df_2020 <span class="op">=</span> df_2020.drop(columns <span class="op">=</span> cName)</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (cName, cData) <span class="kw">in</span> df_2021.iteritems():</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">&quot;source&quot;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Source&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;macroevent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;MacroEvent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Misc.&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Unnamed&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;notes&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;coder&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;TownsCities&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Events&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;BestGuess&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedLow&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedHigh&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;EstimateText&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;County&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;size_text&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;title&#39;</span> <span class="kw">in</span> cName):</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>      df_2021 <span class="op">=</span> df_2021.drop(columns <span class="op">=</span> cName)</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (cName, cData) <span class="kw">in</span> df_2022.iteritems():</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">&quot;source&quot;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Source&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;macroevent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;MacroEvent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Misc.&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Unnamed&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;notes&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;coder&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;TownsCities&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Events&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;BestGuess&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedLow&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedHigh&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;EstimateText&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;County&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;size_text&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;title&#39;</span> <span class="kw">in</span> cName):</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>      df_2022 <span class="op">=</span> df_2022.drop(columns <span class="op">=</span> cName)</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (cName, cData) <span class="kw">in</span> df_2023.iteritems():</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">&quot;source&quot;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Source&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;macroevent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;MacroEvent&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Misc.&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Unnamed&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;notes&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;coder&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;TownsCities&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;Events&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;BestGuess&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedLow&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;AdjustedHigh&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;EstimateText&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;County&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;size_text&#39;</span> <span class="kw">in</span> cName) <span class="op">|</span> (<span class="st">&#39;title&#39;</span> <span class="kw">in</span> cName):</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>      df_2023 <span class="op">=</span> df_2023.drop(columns <span class="op">=</span> cName)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-6-2c881fcf7872&gt;:2: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for (cName, cData) in df_2017.iteritems():
+&lt;ipython-input-6-2c881fcf7872&gt;:5: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for (cName, cData) in df_2018.iteritems():
+&lt;ipython-input-6-2c881fcf7872&gt;:8: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for (cName, cData) in df_2019.iteritems():
+&lt;ipython-input-6-2c881fcf7872&gt;:11: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for (cName, cData) in df_2020.iteritems():
+&lt;ipython-input-6-2c881fcf7872&gt;:14: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for (cName, cData) in df_2021.iteritems():
+&lt;ipython-input-6-2c881fcf7872&gt;:17: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for (cName, cData) in df_2022.iteritems():
+&lt;ipython-input-6-2c881fcf7872&gt;:20: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for (cName, cData) in df_2023.iteritems():
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7" id="Nd56GfTG7HxJ">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Re-estabilshing the list</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>df_list <span class="op">=</span> <span class="bu">list</span>([df_2017, df_2018, df_2019, df_2020, df_2021, df_2022, df_2023])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="bKmwU0gK7kwP" data-outputId="1b302ae2-33a7-4f6b-cba6-c7c2c3aea5a7">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s see what we have now</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> df <span class="kw">in</span> df_list:</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  display(df.head(<span class="dv">1</span>))</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-43e43fbd-c2b5-4bf6-a563-8cc9cb0da1b4" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CityTown</th>
+      <th>Location</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Augusta</td>
+      <td>Outside State House</td>
+      <td>ME</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>150.0</td>
+      <td>150.0</td>
+      <td>Maine State Employees Association</td>
+      <td>Protesting ME government shutdown</td>
+      <td>0</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2017</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-43e43fbd-c2b5-4bf6-a563-8cc9cb0da1b4')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-43e43fbd-c2b5-4bf6-a563-8cc9cb0da1b4 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-43e43fbd-c2b5-4bf6-a563-8cc9cb0da1b4');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-44a1a495-8065-4f0b-9dd6-80feb2610c2a" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CityTown</th>
+      <th>Location</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Atlanta</td>
+      <td>Atlanta City Detention Center</td>
+      <td>GA</td>
+      <td>US</td>
+      <td>2018-07-01</td>
+      <td>24.0</td>
+      <td>24.0</td>
+      <td>Families Belong Together</td>
+      <td>against jailing and separating immigrant child...</td>
+      <td>1.0</td>
+      <td>protest</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2018</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-44a1a495-8065-4f0b-9dd6-80feb2610c2a')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-44a1a495-8065-4f0b-9dd6-80feb2610c2a button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-44a1a495-8065-4f0b-9dd6-80feb2610c2a');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-bfc059c2-b389-4fcc-99db-448a82061eba" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Location</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Baltimore</td>
+      <td>City Hall</td>
+      <td>MD</td>
+      <td>US</td>
+      <td>2019-07-01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>customers, advocacy groups</td>
+      <td>water rates going up by 10% as the Board of Pu...</td>
+      <td>0</td>
+      <td>protest</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2019</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-bfc059c2-b389-4fcc-99db-448a82061eba')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-bfc059c2-b389-4fcc-99db-448a82061eba button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-bfc059c2-b389-4fcc-99db-448a82061eba');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-352752d5-c648-4195-a558-c3bfe4588e95" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CityTown</th>
+      <th>Location</th>
+      <th>StateTerritory</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actor</th>
+      <th>Claim</th>
+      <th>Pro(2)/Anti(1)</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Ashland</td>
+      <td>Memorial Park; streets of Ashland; Highway 13 ...</td>
+      <td>WI</td>
+      <td>US</td>
+      <td>2020-07-01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>water protectors</td>
+      <td>against recloation of Enbridge Line 5 Pipeline...</td>
+      <td>1</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2020</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-352752d5-c648-4195-a558-c3bfe4588e95')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-352752d5-c648-4195-a558-c3bfe4588e95 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-352752d5-c648-4195-a558-c3bfe4588e95');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-f1fb82c4-6eb4-4bc8-928a-a21ae7ed962a" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>locality</th>
+      <th>state</th>
+      <th>location</th>
+      <th>size_low</th>
+      <th>size_high</th>
+      <th>organizations</th>
+      <th>participants</th>
+      <th>claims</th>
+      <th>valence</th>
+      <th>event_type</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>police_injuries</th>
+      <th>participant_injuries</th>
+      <th>arrests</th>
+      <th>property_damage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-07-01</td>
+      <td>Addison</td>
+      <td>IL</td>
+      <td>Portillo's Food Service</td>
+      <td>17.0</td>
+      <td>17.0</td>
+      <td>Arise Chicago</td>
+      <td>workers</td>
+      <td>for better working conditions and higher pay f...</td>
+      <td>0.0</td>
+      <td>strike; picket</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2021</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-f1fb82c4-6eb4-4bc8-928a-a21ae7ed962a')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-f1fb82c4-6eb4-4bc8-928a-a21ae7ed962a button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-f1fb82c4-6eb4-4bc8-928a-a21ae7ed962a');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-33df8a5c-221b-4d2b-b3c9-43909fd2ed50" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>locality</th>
+      <th>state</th>
+      <th>location</th>
+      <th>size_low</th>
+      <th>size_high</th>
+      <th>organizations</th>
+      <th>participants</th>
+      <th>claims</th>
+      <th>valence</th>
+      <th>event_type</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>police_injuries</th>
+      <th>participant_injuries</th>
+      <th>arrests</th>
+      <th>property_damage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2022-07-01</td>
+      <td>Akron</td>
+      <td>OH</td>
+      <td>Harold K. Stubbs Justice Center</td>
+      <td>20.0</td>
+      <td>20.0</td>
+      <td>The Freedom BLOC</td>
+      <td>NaN</td>
+      <td>for justice for Jayland Walker, against police...</td>
+      <td>1.0</td>
+      <td>protest</td>
+      <td>NaN</td>
+      <td>conversation with counter-protester</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-33df8a5c-221b-4d2b-b3c9-43909fd2ed50')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-33df8a5c-221b-4d2b-b3c9-43909fd2ed50 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-33df8a5c-221b-4d2b-b3c9-43909fd2ed50');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-55bec506-196d-417e-b5af-fd932c807f1d" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>locality</th>
+      <th>state</th>
+      <th>location</th>
+      <th>size_low</th>
+      <th>size_high</th>
+      <th>organizations</th>
+      <th>participants</th>
+      <th>claims</th>
+      <th>valence</th>
+      <th>event_type</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>police_injuries</th>
+      <th>participant_injuries</th>
+      <th>arrests</th>
+      <th>property_damage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2023-07-01</td>
+      <td>Aguadilla</td>
+      <td>PR</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Citizens' Victory Movement</td>
+      <td>NaN</td>
+      <td>against illegal construction at historic Muell...</td>
+      <td>0</td>
+      <td>demonstration</td>
+      <td>NaN</td>
+      <td>protest encampment</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-55bec506-196d-417e-b5af-fd932c807f1d')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-55bec506-196d-417e-b5af-fd932c807f1d button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-55bec506-196d-417e-b5af-fd932c807f1d');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="ST1LnSpwK3Px">
+<p>It is defintely already more manageable and organized. However, there
+are a lot of inconsistencies throughout the naming. There seemed to be a
+large change in 2021 with how the investigators coded the data. I will
+go ahead and make the names more consistent.</p>
+</div>
+<div class="cell code" data-execution_count="9" id="yT2Ir56YC26R">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Renamming inconsistent data</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df_2017 <span class="op">=</span> df_2017.rename(columns<span class="op">=</span>{<span class="st">&quot;CityTown&quot;</span>: <span class="st">&quot;City&quot;</span>, <span class="st">&quot;StateTerritory&quot;</span>: <span class="st">&quot;State&quot;</span>, <span class="st">&#39;Actor&#39;</span>: <span class="st">&#39;Actors&#39;</span>, <span class="st">&#39;Pro(2)/Anti(1)&#39;</span>: <span class="st">&#39;Political Affiliation&#39;</span>})</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>df_2018 <span class="op">=</span> df_2018.rename(columns<span class="op">=</span>{<span class="st">&quot;CityTown&quot;</span>: <span class="st">&quot;City&quot;</span>, <span class="st">&quot;StateTerritory&quot;</span>: <span class="st">&quot;State&quot;</span>, <span class="st">&#39;Actor&#39;</span>: <span class="st">&#39;Actors&#39;</span>, <span class="st">&#39;Pro(2)/Anti(1)&#39;</span>: <span class="st">&#39;Political Affiliation&#39;</span>})</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>df_2019 <span class="op">=</span> df_2019.rename(columns<span class="op">=</span>{<span class="st">&quot;StateTerritory&quot;</span>: <span class="st">&quot;State&quot;</span>, <span class="st">&#39;Actor&#39;</span>: <span class="st">&#39;Actors&#39;</span>, <span class="st">&#39;Pro(2)/Anti(1)&#39;</span>: <span class="st">&#39;Political Affiliation&#39;</span>})</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>df_2020 <span class="op">=</span> df_2020.rename(columns<span class="op">=</span>{<span class="st">&quot;CityTown&quot;</span>: <span class="st">&quot;City&quot;</span>, <span class="st">&quot;StateTerritory&quot;</span>: <span class="st">&quot;State&quot;</span>, <span class="st">&#39;Actor&#39;</span>: <span class="st">&#39;Actors&#39;</span>, <span class="st">&#39;Pro(2)/Anti(1)&#39;</span>: <span class="st">&#39;Political Affiliation&#39;</span>})</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>df_2021 <span class="op">=</span> df_2021.rename(columns<span class="op">=</span>{<span class="st">&#39;date&#39;</span>: <span class="st">&#39;Date&#39;</span>, <span class="st">&#39;locality&#39;</span>: <span class="st">&#39;City&#39;</span>, <span class="st">&#39;location&#39;</span>: <span class="st">&#39;Location&#39;</span>, <span class="st">&#39;state&#39;</span>: <span class="st">&#39;State&#39;</span>, <span class="st">&#39;size_low&#39;</span>: <span class="st">&#39;EstimateLow&#39;</span>, <span class="st">&#39;size_high&#39;</span>: <span class="st">&#39;EstimateHigh&#39;</span>, <span class="st">&#39;claims&#39;</span>: <span class="st">&#39;Claim&#39;</span>, <span class="st">&#39;event_type&#39;</span>: <span class="st">&#39;EventType&#39;</span>, <span class="st">&#39;participants&#39;</span>: <span class="st">&#39;Actors&#39;</span>, <span class="st">&#39;valence&#39;</span>: <span class="st">&#39;Political Affiliation&#39;</span>, <span class="st">&#39;police_injuries&#39;</span>: <span class="st">&#39;ReportedPoliceInjuries&#39;</span>, <span class="st">&#39;participant_injuries&#39;</span>: <span class="st">&#39;ReportedParticipantInjuries&#39;</span>, <span class="st">&#39;arrests&#39;</span>: <span class="st">&#39;ReportedArrests&#39;</span>, <span class="st">&#39;property_damage&#39;</span>: <span class="st">&#39;ReportedPropertyDamage&#39;</span>})</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>df_2022 <span class="op">=</span> df_2022.rename(columns<span class="op">=</span>{<span class="st">&#39;date&#39;</span>: <span class="st">&#39;Date&#39;</span>, <span class="st">&#39;locality&#39;</span>: <span class="st">&#39;City&#39;</span>, <span class="st">&#39;location&#39;</span>: <span class="st">&#39;Location&#39;</span>, <span class="st">&#39;state&#39;</span>: <span class="st">&#39;State&#39;</span>, <span class="st">&#39;size_low&#39;</span>: <span class="st">&#39;EstimateLow&#39;</span>, <span class="st">&#39;size_high&#39;</span>: <span class="st">&#39;EstimateHigh&#39;</span>, <span class="st">&#39;claims&#39;</span>: <span class="st">&#39;Claim&#39;</span>, <span class="st">&#39;event_type&#39;</span>: <span class="st">&#39;EventType&#39;</span>, <span class="st">&#39;participants&#39;</span>: <span class="st">&#39;Actors&#39;</span>, <span class="st">&#39;valence&#39;</span>: <span class="st">&#39;Political Affiliation&#39;</span>, <span class="st">&#39;police_injuries&#39;</span>: <span class="st">&#39;ReportedPoliceInjuries&#39;</span>, <span class="st">&#39;participant_injuries&#39;</span>: <span class="st">&#39;ReportedParticipantInjuries&#39;</span>, <span class="st">&#39;arrests&#39;</span>: <span class="st">&#39;ReportedArrests&#39;</span>, <span class="st">&#39;property_damage&#39;</span>: <span class="st">&#39;ReportedPropertyDamage&#39;</span>})</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>df_2023 <span class="op">=</span> df_2023.rename(columns<span class="op">=</span>{<span class="st">&#39;date&#39;</span>: <span class="st">&#39;Date&#39;</span>, <span class="st">&#39;locality&#39;</span>: <span class="st">&#39;City&#39;</span>, <span class="st">&#39;location&#39;</span>: <span class="st">&#39;Location&#39;</span>, <span class="st">&#39;state&#39;</span>: <span class="st">&#39;State&#39;</span>, <span class="st">&#39;size_low&#39;</span>: <span class="st">&#39;EstimateLow&#39;</span>, <span class="st">&#39;size_high&#39;</span>: <span class="st">&#39;EstimateHigh&#39;</span>, <span class="st">&#39;claims&#39;</span>: <span class="st">&#39;Claim&#39;</span>, <span class="st">&#39;event_type&#39;</span>: <span class="st">&#39;EventType&#39;</span>, <span class="st">&#39;participants&#39;</span>: <span class="st">&#39;Actors&#39;</span>, <span class="st">&#39;valence&#39;</span>: <span class="st">&#39;Political Affiliation&#39;</span>, <span class="st">&#39;police_injuries&#39;</span>: <span class="st">&#39;ReportedPoliceInjuries&#39;</span>, <span class="st">&#39;participant_injuries&#39;</span>: <span class="st">&#39;ReportedParticipantInjuries&#39;</span>, <span class="st">&#39;arrests&#39;</span>: <span class="st">&#39;ReportedArrests&#39;</span>, <span class="st">&#39;property_damage&#39;</span>: <span class="st">&#39;ReportedPropertyDamage&#39;</span>})</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10" id="xhvBGN6lDb01">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Re-establishing the list</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>df_list <span class="op">=</span> <span class="bu">list</span>([df_2017, df_2018, df_2019, df_2020, df_2021, df_2022, df_2023])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="xSplpQ14DgVJ" data-outputId="dca53a04-b1ad-4994-fee2-983a1b664df8">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Much more consistent</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> df <span class="kw">in</span> df_list:</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  display(df.head(<span class="dv">1</span>))</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-b64d824b-bb82-4b91-a97b-479061f30d88" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Location</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Augusta</td>
+      <td>Outside State House</td>
+      <td>ME</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>150.0</td>
+      <td>150.0</td>
+      <td>Maine State Employees Association</td>
+      <td>Protesting ME government shutdown</td>
+      <td>0</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2017</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-b64d824b-bb82-4b91-a97b-479061f30d88')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-b64d824b-bb82-4b91-a97b-479061f30d88 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-b64d824b-bb82-4b91-a97b-479061f30d88');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-1eb6c3b8-633a-42ff-bfae-7777f4294d19" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Location</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Atlanta</td>
+      <td>Atlanta City Detention Center</td>
+      <td>GA</td>
+      <td>US</td>
+      <td>2018-07-01</td>
+      <td>24.0</td>
+      <td>24.0</td>
+      <td>Families Belong Together</td>
+      <td>against jailing and separating immigrant child...</td>
+      <td>1.0</td>
+      <td>protest</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2018</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-1eb6c3b8-633a-42ff-bfae-7777f4294d19')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-1eb6c3b8-633a-42ff-bfae-7777f4294d19 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-1eb6c3b8-633a-42ff-bfae-7777f4294d19');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-3738903a-4441-461a-ab41-951a36b4e0bd" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Location</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Baltimore</td>
+      <td>City Hall</td>
+      <td>MD</td>
+      <td>US</td>
+      <td>2019-07-01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>customers, advocacy groups</td>
+      <td>water rates going up by 10% as the Board of Pu...</td>
+      <td>0</td>
+      <td>protest</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2019</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-3738903a-4441-461a-ab41-951a36b4e0bd')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-3738903a-4441-461a-ab41-951a36b4e0bd button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-3738903a-4441-461a-ab41-951a36b4e0bd');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-e08de1d5-b7a0-4433-ae14-c1c6d8effb24" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Location</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Ashland</td>
+      <td>Memorial Park; streets of Ashland; Highway 13 ...</td>
+      <td>WI</td>
+      <td>US</td>
+      <td>2020-07-01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>water protectors</td>
+      <td>against recloation of Enbridge Line 5 Pipeline...</td>
+      <td>1</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2020</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-e08de1d5-b7a0-4433-ae14-c1c6d8effb24')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-e08de1d5-b7a0-4433-ae14-c1c6d8effb24 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-e08de1d5-b7a0-4433-ae14-c1c6d8effb24');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-148013b5-8a06-4c8b-b983-b481be3f9cf1" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Location</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>organizations</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedArrests</th>
+      <th>ReportedPropertyDamage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-07-01</td>
+      <td>Addison</td>
+      <td>IL</td>
+      <td>Portillo's Food Service</td>
+      <td>17.0</td>
+      <td>17.0</td>
+      <td>Arise Chicago</td>
+      <td>workers</td>
+      <td>for better working conditions and higher pay f...</td>
+      <td>0.0</td>
+      <td>strike; picket</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2021</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-148013b5-8a06-4c8b-b983-b481be3f9cf1')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-148013b5-8a06-4c8b-b983-b481be3f9cf1 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-148013b5-8a06-4c8b-b983-b481be3f9cf1');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-1f319078-54b4-4920-a075-831e1e505848" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Location</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>organizations</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedArrests</th>
+      <th>ReportedPropertyDamage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2022-07-01</td>
+      <td>Akron</td>
+      <td>OH</td>
+      <td>Harold K. Stubbs Justice Center</td>
+      <td>20.0</td>
+      <td>20.0</td>
+      <td>The Freedom BLOC</td>
+      <td>NaN</td>
+      <td>for justice for Jayland Walker, against police...</td>
+      <td>1.0</td>
+      <td>protest</td>
+      <td>NaN</td>
+      <td>conversation with counter-protester</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-1f319078-54b4-4920-a075-831e1e505848')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-1f319078-54b4-4920-a075-831e1e505848 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-1f319078-54b4-4920-a075-831e1e505848');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+
+  <div id="df-24dc1b79-5438-469a-bd88-a465a532c144" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Location</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>organizations</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedArrests</th>
+      <th>ReportedPropertyDamage</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2023-07-01</td>
+      <td>Aguadilla</td>
+      <td>PR</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Citizens' Victory Movement</td>
+      <td>NaN</td>
+      <td>against illegal construction at historic Muell...</td>
+      <td>0</td>
+      <td>demonstration</td>
+      <td>NaN</td>
+      <td>protest encampment</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-24dc1b79-5438-469a-bd88-a465a532c144')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-24dc1b79-5438-469a-bd88-a465a532c144 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-24dc1b79-5438-469a-bd88-a465a532c144');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="vi50FUJ_LWVC">
+<p>Now we can really start doing something with the data. There are a
+few columns with inconsistent names or naming structures, but I did not
+want to go too deep into that part of the data for this stage of the
+project as I have not yet determined if it will be useful for the later
+stages.</p>
+</div>
+<div class="cell markdown" id="iGwPm2slLnHl">
+<p>I am going to go ahead and concatenate the tables now that naming is
+more consistent. This will allow me to more easily manage, transform,
+and analyze the data.</p>
+</div>
+<div class="cell code" data-execution_count="12" id="tCoEEnpkzCfG">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df_full <span class="op">=</span> pd.concat([df_2017, df_2018, df_2019, df_2020, df_2021, df_2022, df_2023])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="13"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="wSTH1f3015vS" data-outputId="000bd92f-00f0-4d7b-d044-ce3e2493990c">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Success. Here is what the new table looks like</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>df_full</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+
+  <div id="df-f38e2160-a3fd-4e4c-af09-eaa53ca465d7" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Location</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Date</th>
+      <th>EstimateLow</th>
+      <th>EstimateHigh</th>
+      <th>Actors</th>
+      <th>Claim</th>
+      <th>Political Affiliation</th>
+      <th>EventType</th>
+      <th>ReportedArrests</th>
+      <th>ReportedParticipantInjuries</th>
+      <th>ReportedPoliceInjuries</th>
+      <th>ReportedPropertyDamage</th>
+      <th>Year</th>
+      <th>organizations</th>
+      <th>police_measures</th>
+      <th>participant_measures</th>
+      <th>police_deaths</th>
+      <th>participant_deaths</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Augusta</td>
+      <td>Outside State House</td>
+      <td>ME</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>150.0</td>
+      <td>150.0</td>
+      <td>Maine State Employees Association</td>
+      <td>Protesting ME government shutdown</td>
+      <td>0.0</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2017</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Austin</td>
+      <td>marched from Wooldridge Square Park to state c...</td>
+      <td>TX</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>100.0</td>
+      <td>200.0</td>
+      <td>Texans United for America; Open Carry Texas</td>
+      <td>1776 Freedom March in support of President Don...</td>
+      <td>2.0</td>
+      <td>rally; march</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2017</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Birmingham</td>
+      <td>from Kelly Ingram park to City Hall</td>
+      <td>AL</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>30.0</td>
+      <td>30.0</td>
+      <td>Adelante Alabama Worker Center</td>
+      <td>Support sanctuary city ordinance</td>
+      <td>1.0</td>
+      <td>march</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2017</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Gettysburg</td>
+      <td>Gettysburg National Military Park</td>
+      <td>PA</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>24.0</td>
+      <td>200.0</td>
+      <td>armed militia group members, Sons of Confedera...</td>
+      <td>"First Amendment" rally</td>
+      <td>2.0</td>
+      <td>rally</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2017</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Greeley</td>
+      <td>Outside Weld County Courthouse</td>
+      <td>CO</td>
+      <td>US</td>
+      <td>2017-07-01</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>General Protestors</td>
+      <td>Anti-Trump</td>
+      <td>1.0</td>
+      <td>protest</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2017</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2016</th>
+      <td>Washington</td>
+      <td>DC Central Detention Facility</td>
+      <td>DC</td>
+      <td>NaN</td>
+      <td>2023-07-31</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>for justice for people jailed or imprisoned fo...</td>
+      <td>2.0</td>
+      <td>vigil</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>NaN</td>
+      <td>on scene</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2017</th>
+      <td>Washington</td>
+      <td>DC Central Detention Facility</td>
+      <td>DC</td>
+      <td>NaN</td>
+      <td>2023-07-31</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>NaN</td>
+      <td>against vigil for jailed J6 participants, agai...</td>
+      <td>1.0</td>
+      <td>counter-protest</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>DC RATS</td>
+      <td>on scene</td>
+      <td>megaphones</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>Washington</td>
+      <td>Lafayette Square</td>
+      <td>DC</td>
+      <td>NaN</td>
+      <td>2023-07-31</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>for banning nuclear weapons, for peace</td>
+      <td>0.0</td>
+      <td>vigil</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2019</th>
+      <td>Wooster</td>
+      <td>Wooster Square</td>
+      <td>OH</td>
+      <td>NaN</td>
+      <td>2023-07-31</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>against racism, against police brutality</td>
+      <td>1.0</td>
+      <td>demonstration</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>Wayne County Racial Justice Coalition</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>Yonkers</td>
+      <td>Warburton Ave and Odell Ave</td>
+      <td>NY</td>
+      <td>NaN</td>
+      <td>2023-07-31</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>against police brutality, against racism, for ...</td>
+      <td>1.0</td>
+      <td>demonstration</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>Northwest Yonkers Neighbors for Black Lives Ma...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>9295 rows × 21 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-f38e2160-a3fd-4e4c-af09-eaa53ca465d7')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-f38e2160-a3fd-4e4c-af09-eaa53ca465d7 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-f38e2160-a3fd-4e4c-af09-eaa53ca465d7');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-aee15b43-d67f-4730-944c-d7f28da0ef10">
+  <button class="colab-df-quickchart" onclick="quickchart('df-aee15b43-d67f-4730-944c-d7f28da0ef10')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-aee15b43-d67f-4730-944c-d7f28da0ef10 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="dq6fscYwL6og">
+<p>I do not like that Political Affiliation is in integer format, so I
+am going to remap the values to make more intuitive sense.</p>
+</div>
+<div class="cell code" data-execution_count="14" id="MetPKsrG2cF5">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Remapping Political Affiliation to be more intuitive</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>df_full[<span class="st">&#39;Political Affiliation&#39;</span>] <span class="op">=</span> df_full[<span class="st">&#39;Political Affiliation&#39;</span>].<span class="bu">map</span>({</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="fl">0.0</span>: <span class="st">&#39;Neither&#39;</span>,</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="fl">1.0</span>: <span class="st">&#39;Left/Anti-Trump&#39;</span>,</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    <span class="fl">2.0</span>: <span class="st">&#39;Right/Pro-Trump&#39;</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+</div>
+<div class="cell markdown" id="NdWJZijRMFn0">
+<p>Now that there is one, organized table, let's take a look at the
+dtypes to see what pandas thinks of the data.</p>
+</div>
+<div class="cell code" data-execution_count="15"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="BVdtDRZL3ObP" data-outputId="d7548c58-a317-43f2-8e00-6c3c78cbfcd6">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df_full.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>City                            object
+Location                        object
+State                           object
+Country                         object
+Date                            object
+EstimateLow                    float64
+EstimateHigh                   float64
+Actors                          object
+Claim                           object
+Political Affiliation           object
+EventType                       object
+ReportedArrests                 object
+ReportedParticipantInjuries     object
+ReportedPoliceInjuries          object
+ReportedPropertyDamage          object
+Year                             int64
+organizations                   object
+police_measures                 object
+participant_measures            object
+police_deaths                  float64
+participant_deaths             float64
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="4RFfWe8ZMM9H">
+<p>It's not too bad. There are only a few columns I want to change,
+specifically the estimate columns and death columns since counting the
+number of people via decimal does not make much sense.</p>
+</div>
+<div class="cell code" data-execution_count="16" id="SxZOL4Ru2HH4">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>df_full <span class="op">=</span> df_full.astype({<span class="st">&#39;EstimateLow&#39;</span>: <span class="st">&#39;Int64&#39;</span>, <span class="st">&#39;EstimateHigh&#39;</span>: <span class="st">&#39;Int64&#39;</span>, <span class="st">&#39;police_deaths&#39;</span>: <span class="st">&#39;Int64&#39;</span>, <span class="st">&#39;participant_deaths&#39;</span>: <span class="st">&#39;Int64&#39;</span>})</span></code></pre></div>
+</div>
+<div class="cell markdown" id="E-Bh8y4tMaQJ">
+<p>I do not want to make the 'Reported' columns booleans until I want to
+start doing something with that data because it will be somewhat
+challenging since, again, that is not in the scope of this stage and I
+am not yet sure if I will need it in the next.</p>
+</div>
+<div class="cell markdown" id="H3w8AwO8MuWm">
+<p>Now let's take a look at some summary statistics and graphs. I am
+just going to group by the year column that I made earlier and take the
+summation and mean of the estimated high and low columns to get a more
+accurate representation of the data.</p>
+</div>
+<div class="cell code" data-execution_count="17"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:768}"
+id="1j1e0l3l37bU" data-outputId="2ff70183-696e-4fa5-ee46-8532ec1385a6">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Grouping &#39;EstimatedLow&#39; and summing</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>df_EL_sum <span class="op">=</span> df_full.groupby(<span class="st">&#39;Year&#39;</span>)[[<span class="st">&#39;EstimateLow&#39;</span>]].<span class="bu">sum</span>()</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>display(df_EL_sum)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>df_EL_sum.plot.bar()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-5a2db117-9de5-433f-a31e-931cf2d94324" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>EstimateLow</th>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2017</th>
+      <td>85471</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>72275</td>
+    </tr>
+    <tr>
+      <th>2019</th>
+      <td>312529</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>60282</td>
+    </tr>
+    <tr>
+      <th>2021</th>
+      <td>70619</td>
+    </tr>
+    <tr>
+      <th>2022</th>
+      <td>146052</td>
+    </tr>
+    <tr>
+      <th>2023</th>
+      <td>349572</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-5a2db117-9de5-433f-a31e-931cf2d94324')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-5a2db117-9de5-433f-a31e-931cf2d94324 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-5a2db117-9de5-433f-a31e-931cf2d94324');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-0a674045-6712-4de2-98da-869566b02d51">
+  <button class="colab-df-quickchart" onclick="quickchart('df-0a674045-6712-4de2-98da-869566b02d51')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-0a674045-6712-4de2-98da-869566b02d51 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>&lt;Axes: xlabel=&#39;Year&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_13851ecc19ce41eab5cbef682e18950b/ee3176cdf4b2761281b7f87081e25e12e69f13e1.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="18"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:768}"
+id="0RyRI33o-F3N" data-outputId="629e70a7-09fc-4a6c-fb95-3904f94b97ce">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Grouping &#39;EstimatedHigh&#39; and summing</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>df_EH_sum <span class="op">=</span> df_full.groupby(<span class="st">&#39;Year&#39;</span>)[[<span class="st">&#39;EstimateHigh&#39;</span>]].<span class="bu">sum</span>()</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>display(df_EH_sum)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>df_EH_sum.plot.bar()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-fecb265f-3e35-4377-b90e-26e6bb334033" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>EstimateHigh</th>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2017</th>
+      <td>107918</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>74256</td>
+    </tr>
+    <tr>
+      <th>2019</th>
+      <td>316192</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>67828</td>
+    </tr>
+    <tr>
+      <th>2021</th>
+      <td>126768</td>
+    </tr>
+    <tr>
+      <th>2022</th>
+      <td>175256</td>
+    </tr>
+    <tr>
+      <th>2023</th>
+      <td>512559</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-fecb265f-3e35-4377-b90e-26e6bb334033')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-fecb265f-3e35-4377-b90e-26e6bb334033 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-fecb265f-3e35-4377-b90e-26e6bb334033');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-156ece12-7bf1-4fd2-81d9-8f8f7467c71b">
+  <button class="colab-df-quickchart" onclick="quickchart('df-156ece12-7bf1-4fd2-81d9-8f8f7467c71b')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-156ece12-7bf1-4fd2-81d9-8f8f7467c71b button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>&lt;Axes: xlabel=&#39;Year&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_13851ecc19ce41eab5cbef682e18950b/d29bfe3fe08d0851dadc40f3df6db761775ebd62.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="19"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:768}"
+id="yrKBiN5Y-f1m" data-outputId="0658b3f9-39ea-408d-f7c0-1ccdc0b81e71">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Grouping &#39;EstimatedLow&#39; and averaging</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>df_EL_avg <span class="op">=</span> df_full.groupby(<span class="st">&#39;Year&#39;</span>)[[<span class="st">&#39;EstimateLow&#39;</span>]].mean()</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>display(df_EL_avg)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>df_EL_avg.plot.bar()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-d1f0cb69-6464-41fe-b0e9-4bb93e102536" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>EstimateLow</th>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2017</th>
+      <td>177.325726</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>154.104478</td>
+    </tr>
+    <tr>
+      <th>2019</th>
+      <td>976.653125</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>137.630137</td>
+    </tr>
+    <tr>
+      <th>2021</th>
+      <td>90.075255</td>
+    </tr>
+    <tr>
+      <th>2022</th>
+      <td>148.729124</td>
+    </tr>
+    <tr>
+      <th>2023</th>
+      <td>520.196429</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-d1f0cb69-6464-41fe-b0e9-4bb93e102536')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-d1f0cb69-6464-41fe-b0e9-4bb93e102536 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-d1f0cb69-6464-41fe-b0e9-4bb93e102536');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-4b5530e3-d239-4ed8-a06e-2e74cb527918">
+  <button class="colab-df-quickchart" onclick="quickchart('df-4b5530e3-d239-4ed8-a06e-2e74cb527918')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-4b5530e3-d239-4ed8-a06e-2e74cb527918 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>&lt;Axes: xlabel=&#39;Year&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_13851ecc19ce41eab5cbef682e18950b/f1b772306182f194211c00dddf66c2d93babf73c.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="20"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:768}"
+id="jXTUrUvk-ddA" data-outputId="5d6b78bd-1ef3-44c6-a4f4-8d8daf883a1c">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Grouping &#39;EstimatedHigh&#39; and averaging</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>df_EH_avg <span class="op">=</span> df_full.groupby(<span class="st">&#39;Year&#39;</span>)[[<span class="st">&#39;EstimateHigh&#39;</span>]].mean()</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>display(df_EH_avg)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>df_EH_avg.plot.bar()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-60e2adec-d1d5-4377-b82a-b50ed01fdaa4" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>EstimateHigh</th>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2017</th>
+      <td>223.432712</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>158.328358</td>
+    </tr>
+    <tr>
+      <th>2019</th>
+      <td>994.314465</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>154.858447</td>
+    </tr>
+    <tr>
+      <th>2021</th>
+      <td>161.693878</td>
+    </tr>
+    <tr>
+      <th>2022</th>
+      <td>178.650357</td>
+    </tr>
+    <tr>
+      <th>2023</th>
+      <td>762.736607</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-60e2adec-d1d5-4377-b82a-b50ed01fdaa4')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-60e2adec-d1d5-4377-b82a-b50ed01fdaa4 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-60e2adec-d1d5-4377-b82a-b50ed01fdaa4');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-940ba972-ca59-47f2-be8e-a3a135407bcb">
+  <button class="colab-df-quickchart" onclick="quickchart('df-940ba972-ca59-47f2-be8e-a3a135407bcb')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-940ba972-ca59-47f2-be8e-a3a135407bcb button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>&lt;Axes: xlabel=&#39;Year&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_13851ecc19ce41eab5cbef682e18950b/29ba35f771734b0b1cc977f0d908061b1fbd3c58.png" /></p>
+</div>
+</div>
+<section id="conclusions-on-the-data-and-where-to-go-from-here"
+class="cell markdown" id="OHo3gX-CNOAH">
+<h1>Conclusions on the Data and Where to Go From Here</h1>
+<p>There seems to be a rather intersting pattern of protest frequency
+throughout the years as most years are rather stable, but then they
+shoot up quite intensely in 2019 and 2023. I was rather shocked to see
+the 2020 numbers so low since, even during the lockdown, protests were
+at the forefront of our media.</p>
+<p>I am curious of a few things in this data set. First, I am wondering
+if there is any significant difference between political affiliation
+frequency throughout the years. Did certain election cycles or events
+bring more people of certain ideologies out to protest? Second, with
+2023 being one of the hottest summers in recent record, why is 2023 such
+an outlier for frequency? Lastly, is there a relationship between the
+upsurge in 2019 and 2023? They are both before voting years, so would
+that make a difference?</p>
+<p>The next stages of this project will be focussed on which of these
+questions to answer and possibly finding more.</p>
+</section>
+</body>
+</html>
